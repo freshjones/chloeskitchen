@@ -28,7 +28,9 @@ const TemplateWrapper = ({ children }) => (
         paddingTop: 0,
       }}
     >
+      <main>
       {children()}
+      </main>
     </div>
   </div>
 )
